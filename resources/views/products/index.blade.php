@@ -372,6 +372,7 @@
                             <h6 class="m-0 font-weight-bold text-primary mb-2">Products</h6>
                             <button type="button" class="btn btn-primary btn-sm" data-toggle="modal"
                                 data-target="#productModal">Add Product</button>
+								COBAIN PUSH INI
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
