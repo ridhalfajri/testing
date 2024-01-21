@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\BeritaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::resource('/products', ProductController::class);
 Route::post('/categories/data', [CategoryController::class, 'getCategories'])->name('categories.data');
+Route::resource('/beritas', BeritaController::class);
